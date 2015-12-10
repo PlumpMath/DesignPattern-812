@@ -1,4 +1,4 @@
-package AbstractFactory;
+package facade;
 
 public class Square implements Shape {
 
