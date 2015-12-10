@@ -1,4 +1,4 @@
-package Interpreter;
+package interpreter;
 
 public class OrExpression implements Expression {
 

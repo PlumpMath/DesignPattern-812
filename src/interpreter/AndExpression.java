@@ -1,4 +1,4 @@
-package Interpreter;
+package interpreter;
 
 public class AndExpression implements Expression {
 
