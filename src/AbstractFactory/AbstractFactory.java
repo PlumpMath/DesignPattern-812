@@ -1,8 +1,6 @@
 package AbstractFactory;
 
-public class AbstractFactory {
-	public abstract class AbstractFactory {
-		   abstract Color getColor(String color);
-		   abstract Shape getShape(String shape) ;
-		}
-}
+public abstract class AbstractFactory {
+	   abstract Color getColor(String color);
+	   abstract Shape getShape(String shape) ;
+	}
