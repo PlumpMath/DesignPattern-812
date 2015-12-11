@@ -1,10 +1,10 @@
-package Interpreter;
+package interpreter;
 
 public class InterpreterPatternDemo {
 
 	// Rule: Robert and John are male
 	public static Expression getMaleExpression() {
-		Expression robert = new TerminalExpression("Robert");
+		Expression robert = new TerminalExpression("");
 		Expression john = new TerminalExpression("John");
 		return new OrExpression(robert, john);
 	}
@@ -21,7 +21,6 @@ public class InterpreterPatternDemo {
 		Expression isMarriedWoman = getMarriedWomanExpression();
 
 		System.out.println("John is male? " + isMale.interpret("John"));
-		System.out.println("Julie is a married women? "
-				+ isMarriedWoman.interpret("Married Julie"));
+		System.out.println("Julie is a married women? " + isMarriedWoman.interpret("Married Julie"));
 	}
 }
